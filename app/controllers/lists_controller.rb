@@ -9,7 +9,7 @@ class ListsController < ApplicationController
   end
 
   def index
-    @list = Lists.all
+    @list = List.all
   end
 
   def show
